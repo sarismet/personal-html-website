@@ -102,6 +102,7 @@ header p {
     background: whitesmoke;
     padding: 5px;
     border: red;
+    overflow: hidden;
 }
 
 #btn {
