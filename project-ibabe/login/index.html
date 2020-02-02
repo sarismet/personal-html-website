@@ -7,6 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tap Music</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,6 +21,33 @@
             <h1>Tap Music</h1>
             <p>Make music with only one touch</p>
         </header>
+        <div class="form-box">
+            <div class="bottom-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Sign up</button>
+
+            </div>
+            <div class="social-icons">
+                <i class="fab fa-google"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+
+            </div>
+
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Id" required>
+                <input type="text" class="input-field" placeholder="password" required>
+                <button type="submit" class="btn-submit">Log in</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Id" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="text" class="input-field" placeholder="Email password" required>
+                <button type="submit" class="btn-submit">register</button>
+            </form>
+        </div>
+
         <div class="visual"></div>
         <div class="pads">
             <div class="pad1">
